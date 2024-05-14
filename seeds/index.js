@@ -3,7 +3,7 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb+srv://node1:node1@cluster0.wz775d8.mongodb.net/yelp-camp?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://js_dev:js12345@cluster0.wz775d8.mongodb.net/yelp-camp', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
